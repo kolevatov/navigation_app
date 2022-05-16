@@ -2,7 +2,7 @@ import 'package:scoped_model/scoped_model.dart';
 import 'package:flutter/material.dart';
 
 class ScopedPage extends StatefulWidget {
-  ScopedPage({Key? key}) : super(key: key);
+  const ScopedPage({Key? key}) : super(key: key);
 
   @override
   _ScopedPageState createState() => _ScopedPageState();
@@ -67,7 +67,7 @@ class _Counter extends StatelessWidget {
   Widget build(BuildContext context) {
     return ScopedModelDescendant<CounterModel>(
       builder: (context, child, model) => Card(
-        margin: EdgeInsets.all(4.0).copyWith(bottom: 16.0),
+        margin: const EdgeInsets.all(4.0).copyWith(bottom: 16.0),
         color: Colors.yellowAccent,
         child: Column(
           children: <Widget>[

@@ -59,6 +59,7 @@ class FeaturePage extends StatelessWidget {
                   color: Colors.white,
                   fontSize: 24,
                   fontWeight: FontWeight.bold),
+              textAlign: TextAlign.center,
             ),
             const SizedBox(
               height: 8,

@@ -20,11 +20,11 @@ class PortfolioApp extends StatelessWidget {
       title: 'Portfolio app',
       routes: {
         '/signup': (context) => const SignupForm(),
-        '/google': (context) => GoogleOffices(),
-        '/scoped': (context) => ScopedPage(),
+        '/google': (context) => const GoogleOffices(),
+        '/scoped': (context) => const ScopedPage(),
         '/students': (context) => const StudentPage(),
-        '/box': ((context) => const AnimatedBox()),
-        '/paralax': (context) => const ParalaxPage(),
+        '/box': (context) => const AnimatedBox(),
+        '/paralax': (context) => const ParalaxPage()
       },
       home: const NavigationPage(),
     );

@@ -58,9 +58,9 @@ class DBProvider {
     List<Map<String, dynamic>> studentMapList = await db.query(_tableName);
 
     List<Student> studentsList = [];
-    studentMapList.forEach((element) {
+    for (var element in studentMapList) {
       studentsList.add(Student.fromMap(element));
-    });
+    }
 
     return studentsList;
   }

@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:navigation_app/model/offices.dart';
 
 class GoogleOffices extends StatefulWidget {
+  const GoogleOffices({Key? key}) : super(key: key);
+
   @override
   _GoogleOfficesState createState() => _GoogleOfficesState();
 }
