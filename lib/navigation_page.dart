@@ -116,7 +116,7 @@ class _NavigationPageState extends State<NavigationPage>
             children: [
               const CircleAvatar(
                 radius: 32,
-                backgroundImage: AssetImage('images/avatar.png'),
+                backgroundImage: AssetImage('assets/images/avatar.png'),
               ),
               const SizedBox(
                 width: 8,

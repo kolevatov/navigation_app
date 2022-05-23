@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:navigation_app/navigation_page.dart';
+import 'package:navigation_app/pages/custom_drawer.dart';
 import 'package:navigation_app/pages/google_offices.dart';
 import 'package:navigation_app/pages/implicit_animation.dart';
 import 'package:navigation_app/pages/paralax_effect.dart';
@@ -24,7 +25,8 @@ class PortfolioApp extends StatelessWidget {
         '/scoped': (context) => const ScopedPage(),
         '/students': (context) => const StudentPage(),
         '/box': (context) => const AnimatedBox(),
-        '/paralax': (context) => const ParalaxPage()
+        '/paralax': (context) => const ParalaxPage(),
+        '/custom_drawer': (context) => const CustomDrawer()
       },
       home: const NavigationPage(),
     );

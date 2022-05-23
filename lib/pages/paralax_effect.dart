@@ -18,7 +18,7 @@ class _ParalaxPageState extends State<ParalaxPage> {
     super.initState();
 
     // create call back to show SnackBar
-    WidgetsBinding.instance!.addPostFrameCallback((_) {
+    WidgetsBinding.instance.addPostFrameCallback((_) {
       final snackBar = SnackBar(
         content: const Text(
           'Simple paralax effect.\nThat is working using Image alignment property',
@@ -50,6 +50,7 @@ class _ParalaxPageState extends State<ParalaxPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(),
       body: Container(
         padding: const EdgeInsets.all(10),
         child: ListView.separated(
