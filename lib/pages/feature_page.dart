@@ -38,6 +38,8 @@ class FeaturePage extends StatelessWidget {
               'Animated \' without border \' Box', '/box'),
           buildCard(context, 'Paralax effect', 'Scrolling with paralax effect',
               '/paralax'),
+          buildCard(context, 'Custom drawer', 'Drawer with rotation effect',
+              '/custom_drawer'),
         ],
       ),
     );
